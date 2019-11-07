@@ -68,7 +68,33 @@ b{
       height: 90%;
       margin-left: 6%;
 }
+.texto{
+  height: 500px;
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+.texto p{
+    font-size: 19px;
+    font-family: Arial;
+}
+.texto h3{
+    padding-top: 4%;
+}
 
+.rodaPe{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.local p{
+  font-size: 17px;
+}
+.autores{
+    background-color: black;
+} 
+.autores span{
+    color: white;
+}
 
 
   

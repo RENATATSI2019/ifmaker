@@ -122,7 +122,41 @@ class Inicio extends Component {
 
             </div>
           </div>
-             
+          <div className="row">
+          <div className="texto col-md-12">
+            <h3>O que é</h3>
+            <p>
+                IFMaker é uma plataforma de prototipagem com suporte à inovação e ao aprendizado.
+            </p>
+            <p>
+              Possibilita que pessoas da comunidade interna e externa ao IFMS campus aquidauana
+              possam projetar e desenvolver suas ideias de forma criativa e cooperativa.
+            </p>
+
+            <p>
+               O objetivo principal é a disseminação do conhecimento técnico fornecendo estimulo
+               para a difusão do empreendedorismo local.
+            </p>
+
+            <p>
+               Se você possui uma ideia - ainda que julgue ser inconsistente - venha explorar o potencial da mesma,
+               colocando-a em prática de forma divertida e coloborativa.
+            </p>
+
+          </div>
+          </div>
+          <div className="rodaPe">
+            <div className="local">
+              <p>2009-2019 Instituto Federal de Educação, Ciência e Tecnologia de
+                Mato Grosso do Sul. Todos os direitos reservados.
+              </p>
+              <p>Rua José Tadao Arima, 222- Vila Ycaraí - Aquidauana/ MS - CEP: 79200-000</p>
+              <p>Telefone:(67)3240-1600</p>
+            </div>
+            <div className="autores">
+              <span>2019 por Renata & William</span>
+            </div>
+          </div>
         </div>
       </BrowserRouter>
     );
