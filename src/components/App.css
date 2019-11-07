@@ -1,0 +1,35 @@
+/* ---------------------------------------------------------------------------------------- */
+/* @media only screen and (max-width: 768px) {
+  #menu{
+    display: none;
+  }
+  #banner {
+    text-align: center;
+    background-color: #19b5fe;
+    font-family: "lob";
+    color: #E0F7FA;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+  }
+  #foto{
+    display: inline;
+    width: 32%;
+    height: 32%;
+    padding: 2% 0 2% 0;
+  }
+  #menu2{
+    background-color: #2574a9 ;
+    font-family: "lob";
+    font-size: 120%;
+    text-align: center;
+  }
+  #MenuMobile ul{
+    display: -webkit-inline-box;
+  }
+  h1{
+    font-size: 113% !important;
+  }
+  p,h3{
+    font-size: 84% !important;
+  }
+} */

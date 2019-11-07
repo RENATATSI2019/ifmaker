@@ -1,0 +1,20 @@
+.fundo{
+background-color: rgb(19, 75, 19);
+height: 50px;
+margin-bottom: 10px;
+}
+   
+.container li{
+height: 49px;
+background-color: rgb(19, 75, 19);
+}
+
+.container a{
+color: white;
+font-size: 20px;
+}
+
+ul li .dropdown-item {
+    color:black;
+}
+

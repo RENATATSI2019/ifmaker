@@ -1,0 +1,25 @@
+h3{
+    text-align: center;
+}
+
+.eventos{
+    padding: 15px;   
+    margin-left: 5%;
+ }
+
+.eventos img {
+    width:30%;
+    height: 15%;
+
+}
+
+.eventos2{
+    padding: 15px;
+    margin-left: 5%;
+}
+
+.eventos2 img {
+    width:30%;
+    height: 15%;
+
+}
