@@ -48,6 +48,74 @@ b{
 .equipamentos p{
   margin: auto;
 }
+.equipamentos{
+  background-color: black;
+  height: 700px;
+  text-align: center;
+  color:white;
+}
+  
+.equipamentos h1{
+      color: white;
+      font-size: 29px;
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 20px;
+}
+.equipamentos img{
+      border-radius: 20px;
+      margin-top: 6%;
+      margin-bottom: 10%;
+      width: 70%;
+      height: 70%;
+}
+.materiais{
+  background-color: white;
+  height: 500px;
+  padding-top: 20px;
+}
+  
+.materiais h1{ 
+      color: black;
+      font-size: 29px;
+      text-align: center;
+}
+.materiais h4{
+      padding-top: 10%;
+      text-align: center;
+}
+.materiais img{
+      width: 80%;
+      height: 90%;
+      margin-left: 6%;
+}
+.texto{
+  height: 500px;
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+.texto p{
+    font-size: 19px;
+    font-family: Arial;
+}
+.texto h3{
+    padding-top: 4%;
+}
+
+.rodaPe{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.local p{
+  font-size: 17px;
+}
+.autores{
+    background-color: black;
+} 
+.autores span{
+    color: white;
+}
 
 .materiais{
   background-color: white;
