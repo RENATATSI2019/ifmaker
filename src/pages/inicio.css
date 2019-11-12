@@ -1,18 +1,18 @@
-
 .conteiner {
   padding: 0px 10px;
-  
-}
+  }
+
 .conteiner img{
-      height: 550px;
-    }
+  height: 550px;
+  }
 
 #banner{
   display: inline;
 }
+
 #banner img{
-    width: 50%;
-    height: 40%;
+  width: 50%;
+  height: 40%;
   }
 
 b{
@@ -21,12 +21,87 @@ b{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   color: rgb(3, 32, 3);;
-}
+  }
 
 .logoIF {
   margin: 0px 10px 10px 10px;
   height:60px;
+  }
+
+.equipamentos{
+  background-color: black;
+  height: 500px;
+  text-align: center;
+  color:white;
+  max-width: 100%;
+  padding-top: 2%;
+  }
+
+
+.equipamentos img{
+  width: 60%;
+  height: 70%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  }
+
+.equipamentos p{
+  margin: auto;
 }
+
+.materiais{
+  background-color: white;
+  height: 500px;
+  padding-top: 20px;
+  }
+  
+.materiais h1{ 
+  color: black;
+  text-align: center;
+  }
+
+.materiais h4{
+  padding-top: 10%;
+  text-align: center;
+  }
+
+.materiais img{
+  margin-left:25px;
+  width: 75%;
+  height: 90%;
+  padding:5px;
+  }
+
+.sobre{
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align:center;
+  }
+
+.sobre h3{
+  padding-top: 3%;
+  }
+
+.sobre h5{
+  padding: 2%;
+  line-height: 150%;
+  }
+
+.local p{
+  text-align: center;
+  margin-top: 15px;
+  }
+
+.autores {
+  max-width:100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  } 
 
 
   
