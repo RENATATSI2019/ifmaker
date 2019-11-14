@@ -5,7 +5,7 @@ class Menu extends Component {
     render() {
         return (
             <div className="fundo">
-                <div className="container">
+                <div className="container">                     
                     <ul className="nav">
                         <li className="nav-item">
                             <a className="nav-link" href="Inicio">Home</a>

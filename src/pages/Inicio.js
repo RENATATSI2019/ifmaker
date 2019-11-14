@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import { BrowserRouter } from 'react-router-dom';
 import './inicio.css';
-import down from '../img/download.jpg';
-import down1 from '../img/download1.jpg';
-import down2 from '../img/download2.jpg';
 import img from '../img/image.png';
 import img1 from '../img/image1.png';
 import img2 from '../img/image2.png';
@@ -13,59 +9,22 @@ import img6 from '../img/image6.png';
 import img7 from '../img/image7.png';
 import img8 from '../img/image8.png';
 import Menu from './Menu';
-import Cabecalho from './Cabecalho';
+import Carrocel from './Carrocel';
+import logo from '../../src/img/logo.png';
 
 
 class Inicio extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
-         <Cabecalho/>
-        </div>
+      <div>
+      <img className= "logoIF" src={logo} alt="Logo"/>       
+      </div>
         <div className="conteiner">
-
           <Menu />
           <div className="imgInicio">
-            <Carousel>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={down}
-                  alt="First slide"
-                />
-                <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={down1}
-                  alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={down2}
-                  alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
-
-          </div>
+            <Carrocel/>  
+             </div>
           <div className="equipamentos">
             <h1>Equipamentos</h1>
 
