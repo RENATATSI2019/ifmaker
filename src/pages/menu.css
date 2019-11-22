@@ -1,13 +1,16 @@
 .fundo{
-width: 100%;
 background-color: rgb(19, 75, 19);
 height: 50px;
 margin-bottom: 10px;
 }
    
 .container li{
-height: 49px;
+/* height: 49px; */
 background-color: rgb(19, 75, 19);
+}
+.container li  :hover{
+    color: rgb(59, 240, 42);
+    border: 1px solid rgb(59, 240, 42);
 }
 
 .container a{
@@ -18,4 +21,5 @@ font-size: 20px;
 ul li .dropdown-item {
     color:black;
 }
+
 

@@ -2,28 +2,24 @@ h3{
     text-align: center;
 }
 
-.card{
-    height: 500px;
-    padding: 10px;
+.eventos{
+    padding: 15px;   
+    margin-left: 5%;
+ }
+
+.eventos img {
+    width:30%;
+    height: 15%;
+
 }
 
-.card-deck img{
-   height: 70%;
-   width: 100%;
-   
+.eventos2{
+    padding: 15px;
+    margin-left: 5%;
 }
 
-.card-deck text{
-    height: 30%;
-    width: 90%;
-    margin-top: 2%;
-         
-}
+.eventos2 img {
+    width:30%;
+    height: 15%;
 
-.abertos{
-   padding: 10px;
-}
-
-.anteriores{
-   padding: 10px;
 }
