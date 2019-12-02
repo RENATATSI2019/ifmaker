@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import './menu.css';
+import './Inicio';
 
 class Menu extends Component {
     render() {
         return (
-            <div className="fundo">
-                <div className="container">                     
-                    <ul className="nav">
+             <div>  
+                    <div className="nav">
                         <li className="nav-item">
                             <a className="nav-link" href="Inicio">Home</a>
                         </li>
-                        
+
                         <li className="nav-item">
-                            <a className="nav-link" href="Sobre">Sobre Nós</a>
+                            <a className="nav-link" href="Eventos">Eventos</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="Contato">Contato</a>
@@ -22,12 +22,11 @@ class Menu extends Component {
                             <div className="dropdown-menu">
                                 <a className="dropdown-item" href="Cursos">Cursos</a>
                                 <a className="dropdown-item" href="Agendamento">Agendamento</a>
-                                <a className="dropdown-item" href="Eventos">Eventos</a></div>
+                            </div>
                         </li>
-                    </ul>
-                </div>
-            </div>
-
+                    </div>
+                </div> 
+             
         );
     }
 }

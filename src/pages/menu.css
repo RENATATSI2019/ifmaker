@@ -1,21 +1,31 @@
-.fundo{
+   
+.nav {
 width: 100%;
 background-color: rgb(19, 75, 19);
-height: 50px;
-margin-bottom: 10px;
-}
-   
-.container li{
-height: 49px;
-background-color: rgb(19, 75, 19);
 }
 
-.container a{
-color: white;
-font-size: 20px;
+.nav-link:hover{
+    color: rgb(59, 240, 42);
+    border: 1px solid rgb(59, 240, 42);
 }
 
-ul li .dropdown-item {
+.nav-item .dropdown{
     color:black;
 }
+
+.nav-link{
+color: white;
+}
+
+.nav-link .dropdown {
+    color: white;
+    }
+
+    .dropdown :hover{
+        color: rgb(59, 240, 42);
+        border: 1px solid rgb(59, 240, 42);
+    }
+
+
+
 

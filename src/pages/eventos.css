@@ -1,29 +1,53 @@
 h3{
     text-align: center;
+    padding-top: 10px;
+    
 }
 
-.card{
-    height: 500px;
-    padding: 10px;
+h5{
+    
+    padding: 0px 10px 10px 0px;
+}
+h4 {
+    padding-top: 5px;
+    margin-left: 3px;
+    color:  rgb(19, 75, 19);
 }
 
-.card-deck img{
-   height: 70%;
-   width: 100%;
-   
+p{
+    color: black;
 }
 
-.card-deck text{
-    height: 30%;
-    width: 90%;
-    margin-top: 2%;
-         
+.cards{
+    width: 100%;
+    
+}
+.card {
+    border: 1px solid gray;
+    width:33%;
+    margin-left: 3px;
+    float: left;
+    margin-bottom: 30px;
+        
 }
 
-.abertos{
-   padding: 10px;
+.card-img-top {
+    width: 80px;
+    height: 250px;
+    
 }
+/*----------------------------------Mobile-------------------------------------- */
+@media only screen and (max-width: 769px) {
+    .cards{
+        width: 100%;
+        
+    }
 
-.anteriores{
-   padding: 10px;
+    .card {
+        border: 1px solid gray;
+        margin-left: 3px;
+        width: 100%;
+       
+    }
+
 }

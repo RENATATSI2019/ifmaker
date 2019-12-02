@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "caveat";
+    src: url(../fontes/Caveat-Regular.ttf);
+}
+@font-face {
+    font-family: "maven";
+    src: url(../fontes/MavenPro-Regular.ttf);
+}
+@font-face {
+    font-family: "dancing";
+    src: url(../fontes/DancingScript-VariableFont_wght.ttf);
+}
+.conteiner{
+    margin: 0.3%;
+  }
+  h1, p {
+      text-align: center;
+      color: rgb(218, 222, 233);
+      font-family:'maven';
+}
+.contato{
+    height: 620px;
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+.contato h1{
+    font-family: "caveat";
+    color: rgb(206, 6, 116);
+    text-shadow: 1px 1px 1px rgb(231, 42, 114);
+}
+#cont{
+    background-color:#DAD2D8;
+    color: black;
+    margin-top: 8%;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contato img {  
+    margin-right: 3%;
+    width: 8%;
+    height: 75%;
+    padding: 1%;
+}
+#cont p {
+    display: inline;
+}
+#cont span, b {
+    color:rgb(19, 75, 19);
+}
+.info{
+    margin-top: 15%;
+}
+.info p{
+    padding-top: 3%;
+    
+    font-family: "caveat";
+    font-size: 22px;
+}

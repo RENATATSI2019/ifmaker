@@ -1,54 +1,24 @@
-.conteiner {
-  padding: 0px 10px;
-  }
-
-.conteiner img{
-  height: 550px;
+@font-face {
+  font-family: "montserrat";
+  src: url(../fontes/Montserrat-Regular.ttf);
 }
 
-
-
-#banner{
-  display: inline;
+@font-face {
+  font-family: "poppins";
+  src: url(../fontes/Lobster-Regular.ttf);
 }
 
-#banner img{
-  width: 50%;
-  height: 40%;
-  }
-
-b{
-  padding: 10px;
-  display: inline;
-  font-family:Verdana, Tahoma, sans-serif;
-  font-size: 50px;
-  color: rgb(3, 32, 3);;
-  }
-
+.conteiner{
+  margin: 0.3%;
+}
 .logoIF {
-  margin: 10px 10px 10px 10px;
-  height:60px;
-  }
-
-.equipamentos{
-  background-color: black;
-  height: 500px;
-  text-align: center;
-  color:white;
-  max-width: 100%;
-  padding-top: 2%;
-  }
+  margin: 8px 10px 10px 3px;
+  height: 60px;
+}
 
 
-.equipamentos img{
-  width: 60%;
-  height: 70%;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  }
-
-.equipamentos p{
-  margin: auto;
+.imgCarrocel img{
+  height: 550px;
 }
 .equipamentos{
   background-color: black;
@@ -56,61 +26,72 @@ b{
   text-align: center;
   color:white;
 }
-  
-.equipamentos h1{
-      color: white;
-      font-size: 29px;
-      text-align: center;
-      padding-top: 5%;
-      padding-bottom: 20px;
+.equipamentos h4{  
+  font-size: 29px;  
+  padding-top: 10%;
+  padding-bottom: 5% ;
+ 
+}
+.equipamentos h4{
+  font-family: "poppins";
+  color: gold;
 }
 .equipamentos img{
-      border-radius: 20px;
-      margin-top: 6%;
-      margin-bottom: 10%;
-      width: 70%;
-      height: 70%;
+  border-radius: 20px;
+  margin-top: 6%;
+  margin-bottom: 10%;
+  width: 70%;
+  height: 70%;
 }
 .materiais{
-  background-color: white;
   height: 500px;
   padding-top: 20px;
+  text-align: center;
 }
-  
-.materiais h1{ 
-      color: black;
-      font-size: 29px;
-      text-align: center;
+.materiais h1{
+  color: black;
+  text-align: center;
 }
 .materiais h4{
-      padding-top: 10%;
-      text-align: center;
+  padding-top: 20%;
+  text-align: center;
+  font-family: "poppins";
+  color: red;
 }
 .materiais img{
-      width: 80%;
-      height: 90%;
-      margin-left: 6%;
+  width: 90%;
+  height: 80%;
+  padding: 1%;
+  margin-top: 15%;
+  margin-left: 6%;
 }
 .texto{
-  height: 500px;
+  height: 650px;
   background-color: black;
   color: white;
-  text-align:center;
+  
 }
 .texto p{
     font-size: 19px;
-    font-family: Arial;
+    font-family: 'montserrat';
+    padding: 0 1% 0 1%;
+    text-align:center;
+    color: white;
 }
 .texto h3{
     padding-top: 4%;
 }
-
 .rodaPe{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  
+}
+.local {
+  padding: 2%;
 }
 .local p{
   font-size: 17px;
+  color: black;
 }
 .autores{
     background-color: black;
@@ -119,59 +100,40 @@ b{
     color: white;
 }
 
-.materiais{
-  background-color: white;
-  height: 500px;
-  padding-top: 20px;
-  }
-  
-.materiais h1{ 
-  color: black;
-  text-align: center;
-  }
 
-.materiais h4{
-  padding-top: 10%;
-  text-align: center;
-  }
 
-.materiais img{
-  margin-left:25px;
-  width: 75%;
-  height: 90%;
-  padding:5px;
-  }
 
-.sobre{
-  height: 300px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align:center;
+/*----------------------------------Mobile-------------------------------------- */
+@media only screen and (max-width: 769px) {
+  .equipamentos img{
+    height: 50%;
+    width: 40%;
   }
-
-.sobre h3{
-  padding-top: 3%;
+  .equipamentos{
+    height: 1100px;
+    
   }
-
-.sobre h5{
-  padding: 2%;
-  line-height: 150%;
+  .materiais img {
+    height: 50%;
+    width: 40%;
+  }
+  .materiais{
+    height: 90%;
+  }
+  .texto{
+    height: 5%; 
+  }
+  .texto p {
+    font-size: 85%;
+  }
+  .texto h3{
+    font-size: 100%;
+  }
+  .local p{
+    font-size:70%;
+  }
+  .autores span{
+    font-size: 70%;
   }
 
-.local p{
-  text-align: center;
-  margin-top: 15px;
-  }
-
-.autores {
-  max-width:100%;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: black;
-  text-align: center;
-  color: white;
-  } 
-
-
-  
+}
