@@ -12,8 +12,12 @@ export default class Eventos extends Component {
             <div className="conteiner">
                 <Menu />
                 <div className="header">
-                    <h3>Eventos</h3>
+                    <h3>
+                        Eventos
+                </h3>
+
                 </div>
+               
 
                 <div className="eventos">
                     <h4>Inscrições Abertas!</h4>

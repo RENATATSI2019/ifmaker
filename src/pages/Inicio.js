@@ -27,10 +27,7 @@ class Inicio extends Component {
 
             {/* Logotipo do ifmaker */}
             <img className="logoIF" src={logo} alt="Logo" />
-    
             <Menu />
-
-
             <div className="imgCarrocel">
               <Carousel>
                 <Carousel.Item>
@@ -157,24 +154,22 @@ class Inicio extends Component {
             </p>
             </Col>
 
-            <div className="rodaPe">
-              <div className="local">
-                <p>2009-2019 Instituto Federal de Educação, Ciência e Tecnologia de
-                  Mato Grosso do Sul. Todos os direitos reservados.
+      
+            <div className="local">
+              <p>2009-2019 Instituto Federal de Educação, Ciência e Tecnologia de
+                Mato Grosso do Sul. Todos os direitos reservados.
               </p>
-                <p>Rua José Tadao Arima, 222- Vila Ycaraí - Aquidauana/ MS - CEP: 79200-000</p>
-
-              </div>
-              <div className="autores">
-                <span>2019 por Renata & William</span>
-              </div>
+              <p>Rua José Tadao Arima, 222- Vila Ycaraí - Aquidauana/ MS - CEP: 79200-000</p>
+              
             </div>
-
+            <div className="autores">
+              <span>2019 por Renata & William</span>
+            </div>
+          </div>
 
           </div>
-        </div>
+    
       </BrowserRouter>
-
     );
   }
 }
