@@ -22,7 +22,7 @@
 }
 .equipamentos{
   background-color: black;
-  height: 700px;
+  height: 500px;
   text-align: center;
   color:white;
 }
@@ -99,8 +99,9 @@
 .autores{
     background-color: black;
 } 
-.autores span{
+.autores{
     color: white;
+    text-align: center;
 }
 
 
