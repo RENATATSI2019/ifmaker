@@ -1,3 +1,14 @@
-.formulario{
-   padding: 20px;
+.conteiner{
+  margin: 0.3%; 
+}
+.optar{
+   margin-left:10px ;
+}
+
+.form-group{
+   margin: 10px;
+}
+
+.btn{
+   margin-left: 10px;
 }

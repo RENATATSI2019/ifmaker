@@ -3,16 +3,19 @@ import './cursos.css';
 import FormCheck from 'react-bootstrap/FormCheck';
 import Menu from './Menu';
 
+import logo from '../img/logo.png';
+
 export default class Cursos extends Component {
   render() {
     return (
       <div className="conteiner">
+        <img className="logoIF" src={logo} alt="Logo" />
       <Menu/>           
-        <div className="header">
+        
           <h3>
             Cursos
           </h3>
-        </div>
+       
 
         <div className="optar">
           <FormCheck

@@ -6,17 +6,17 @@ import Menu from './Menu';
 import './Contato.css';
 import telefone from '../img/telefone.ico';
 import email from '../img/email.ico';
-import SimpleMap from './Mapa';
+
+import logo from '../img/logo.png';
 
 
 export default class Contato extends Component {
-
-
     render() {
         return (
             <div>
                 
                 <div className="conteiner">
+                <img className="logoIF" src={logo} alt="Logo" />
                 <Menu />
                    
                         <Col className="contato" md={6}>
@@ -43,12 +43,6 @@ export default class Contato extends Component {
                                 <p>Rua José Tadao Arima, 222- Vila Ycaraí - Aquidauana/ MS - CEP: 79200-000</p>
                             </div>
                         </Col>
-
-                        <Col md={6}>
-                            <SimpleMap/>
-                        </Col>
-                    
-                   
                 </div>
             </div>
 
